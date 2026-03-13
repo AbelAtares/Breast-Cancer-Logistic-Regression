@@ -1,6 +1,6 @@
 # Breast Cancer Logistic Regression
 
-This project implements a predictive model to distinguish between benign and malignant breast tumors using a **Logistic Regression classifier**. The dataset used comes from the **Wisconsin Breast Cancer Database**. The goal is to explore the features, visualize the data, and evaluate the model’s performance in identifying cancerous tumors.
+This project implements a predictive model to distinguish between benign and malignant breast tumors using a **Logistic Regression classifier**. The dataset used comes from the **Wisconsin Breast Cancer Database**. The goal is to explore the features, visualize the data and evaluate the model’s performance in identifying cancerous tumors.
 
 ---
 
@@ -9,7 +9,7 @@ This project implements a predictive model to distinguish between benign and mal
 - The dataset is loaded and the **target variable is converted into 0s and 1s** for benign and malignant cases.  
 - A preliminary study of the feature variables is performed separately for benign and malignant tumors.  
 - This helps identify which features are most correlated with the target.  
-- Based on the analysis, **`newflayer`** was selected as the most relevant feature for modeling.
+- Based on the analysis, **Bare.nuclei** was selected as the most relevant feature for modeling.
 
 ---
 
@@ -55,4 +55,4 @@ This project implements a predictive model to distinguish between benign and mal
 ---
 
 **Conclusion:**  
-The Logistic Regression model provides a solid baseline for tumor classification. Feature analysis, visualization, and careful evaluation highlight areas where further improvements could be made, particularly in increasing Recall for high-stakes medical applications.
+The Logistic Regression model provides a solid baseline for tumor classification. Feature analysis, visualization and careful evaluation highlight areas where further improvements could be made, particularly in increasing Recall for high-stakes medical applications.
